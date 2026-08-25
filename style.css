@@ -1341,7 +1341,11 @@ em { font-style: italic; }
   font-size: 8px;
   opacity: .65;
 }
-
+.footer-logo {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+}
 /* =========================
    TABLET
 ========================= */
