@@ -137,17 +137,17 @@ window.addEventListener("scroll", () => {
 //
 // No se envía a ningún sitio mientras no conectes un servicio.
 
-const form = document.querySelector("#contactForm");
-const result = document.querySelector(".form-result");
+//const form = document.querySelector("#contactForm");
+//const result = document.querySelector(".form-result");
 
-form?.addEventListener("submit", event => {
-  event.preventDefault();
+//form?.addEventListener("submit", event => {
+//  event.preventDefault();
 
-  result.textContent =
-    "Formulario preparado. Conecta aquí tu sistema de recepción de mensajes.";
+//  result.textContent =
+//    "Formulario preparado. Conecta aquí tu sistema de recepción de mensajes.";
 
-  form.reset();
-});
+//  form.reset();
+//});
 
 // ==============================
 // AÑO DEL FOOTER
