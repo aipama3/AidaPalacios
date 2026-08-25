@@ -95,6 +95,13 @@ body:hover .cursor-dot { opacity: .65; }
   gap: 6px;
 }
 
+.logo img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .logo-main {
   font-family: var(--serif);
   font-size: 22px;
