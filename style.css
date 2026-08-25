@@ -280,6 +280,7 @@ em { font-style: italic; }
   position: relative;
   height: min(760px, 78vh);
   min-height: 560px;
+  z-index: 1;
 }
 
 .hero-photo-wrap {
@@ -297,11 +298,12 @@ em { font-style: italic; }
 
 .hero-arch {
   position: absolute;
-  inset: 0;
+  inset:  0 3% 4% 7%;
   z-index: 1;
   background: var(--sage);
   transform: translate(-10%, -8%) rotate(-4deg);
   border-radius: 46% 46% 15px 15px;
+  z-index: 1;
 }
 
 .photo-label {
