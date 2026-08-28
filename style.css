@@ -1647,9 +1647,7 @@ em { font-style: italic; }
   .contact-copy h2 {
     font-size: 70px;
   }
-  .contact-image {
-    height: 480px;
-  }
+ 
 
   .final {
     min-height: 600px;
