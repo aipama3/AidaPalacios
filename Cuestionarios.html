@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cuestionarios | Aida Palacios</title>
+  <meta
+    name="description"
+    content="Cuestionarios de orientación psicológica de Aida Palacios."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="cuestionarios.css">
+</head>
+
+<body>
+
+  <div class="page-noise"></div>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="questionnaires-header">
+
+    <a href="index.html" class="questionnaires-logo">
+      <img src="assets/logo.png" alt="Aida Palacios Psicóloga">
+    </a>
+
+    <a href="index.html" class="back-link">
+      <span>←</span>
+      Volver a la web
+    </a>
+
+  </header>
+
+
+  <!-- =========================
+       INTRO
+  ========================== -->
+
+  <main>
+
+    <section class="questionnaires-hero">
+
+      <div class="hero-small reveal">
+        <span>Espacio de autoobservación</span>
+      </div>
+
+      <h1 class="reveal delay-1">
+        Conocerte también
+        <em>es cuidarte.</em>
+      </h1>
+
+      <p class="questionnaires-intro reveal delay-2">
+        Estos cuestionarios pueden ayudarte a detenerte un momento,
+        observar cómo te encuentras y poner palabras a algunas de
+        tus experiencias.
+      </p>
+
+      <div class="orientation-note reveal delay-2">
+        <span class="note-icon">+</span>
+
+        <p>
+          <strong>Importante:</strong>
+          estos cuestionarios tienen una finalidad orientativa y de
+          autoobservación. No sustituyen una evaluación psicológica
+          profesional ni permiten establecer un diagnóstico.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CUESTIONARIOS
+    ========================== -->
+
+    <section class="questionnaires-section">
+
+      <div class="section-heading reveal">
+
+        <span class="section-number">01</span>
+
+        <div>
+          <p class="eyebrow">Elige un cuestionario</p>
+
+          <h2>
+            ¿Qué quieres
+            <em>observar?</em>
+          </h2>
+        </div>
+
+      </div>
+
+
+      <div class="questionnaires-grid">
+
+        <!-- BIENESTAR -->
+
+        <article class="questionnaire-card reveal">
+
+          <div class="card-number">01</div>
+
+          <div class="questionnaire-symbol">
+            ○
+          </div>
+
+          <div class="questionnaire-card-content">
+
+            <span class="card-category">
+              Bienestar emocional
+            </span>
+
+            <h3>
+              ¿Cómo me encuentro
+              últimamente?
+            </h3>
+
+            <p>
+              Una breve autoobservación sobre tu estado emocional,
+              energía, motivación y bienestar durante las últimas semanas.
+            </p>
+
+            <div class="card-footer">
+
+              <span>5 min aprox.</span>
+
+              <button
+                type="button"
+                class="start-questionnaire"
+                data-questionnaire="bienestar"
+              >
+                Comenzar
+                <span>→</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- AUTOESTIMA -->
+
+        <article class="questionnaire-card questionnaire-card-sage reveal delay-1">
+
+          <div class="card-number">02</div>
+
+          <div class="questionnaire-symbol">
+            ◌
+          </div>
+
+          <div class="questionnaire-card-content">
+
+            <span class="card-category">
+              Autoestima
+            </span>
+
+            <h3>
+              Mi relación
+              conmigo
+            </h3>
+
+            <p>
+              Una oportunidad para observar cómo te valoras,
+              cómo te hablas y cómo te relacionas con tus propias necesidades.
+            </p>
+
+            <div class="card-footer">
+
+              <span>5 min aprox.</span>
+
+              <button
+                type="button"
+                class="start-questionnaire"
+                data-questionnaire="autoestima"
+              >
+                Comenzar
+                <span>→</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ANSIEDAD -->
+
+        <article class="questionnaire-card questionnaire-card-terracotta reveal delay-2">
+
+          <div class="card-number">03</div>
+
+          <div class="questionnaire-symbol">
+            ~
+          </div>
+
+          <div class="questionnaire-card-content">
+
+            <span class="card-category">
+              Ansiedad
+            </span>
+
+            <h3>
+              Observando
+              mi ansiedad
+            </h3>
+
+            <p>
+              Un espacio para prestar atención a algunas sensaciones,
+              pensamientos y experiencias relacionadas con la ansiedad.
+            </p>
+
+            <div class="card-footer">
+
+              <span>5 min aprox.</span>
+
+              <button
+                type="button"
+                class="start-questionnaire"
+                data-questionnaire="ansiedad"
+              >
+                Comenzar
+                <span>→</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         TEST
+    ========================== -->
+
+    <section
+      class="test-section"
+      id="test-section"
+      hidden
+    >
+
+      <div class="test-container">
+
+        <div class="test-top">
+
+          <button
+            type="button"
+            class="back-to-questionnaires"
+            id="backToQuestionnaires"
+          >
+            ← Ver cuestionarios
+          </button>
+
+          <span id="questionCounter">
+            Pregunta 1 de 5
+          </span>
+
+        </div>
+
+
+        <div class="progress-wrapper">
+
+          <div class="progress-info">
+            <span id="progressLabel">
+              Progreso
+            </span>
+
+            <span id="progressPercentage">
+              0%
+            </span>
+          </div>
+
+          <div class="progress-track">
+            <div
+              class="progress-bar"
+              id="progressBar"
+            ></div>
+          </div>
+
+        </div>
+
+
+        <div class="question-card">
+
+          <div class="question-category" id="questionCategory">
+            Autoobservación
+          </div>
+
+          <h2 id="questionTitle">
+            Pregunta
+          </h2>
+
+          <p id="questionDescription">
+            Selecciona la respuesta que más se aproxime a tu experiencia.
+          </p>
+
+          <div
+            class="answers"
+            id="answers"
+            role="radiogroup"
+          ></div>
+
+        </div>
+
+
+        <div class="question-navigation">
+
+          <button
+            type="button"
+            class="test-button test-button-secondary"
+            id="previousQuestion"
+          >
+            ← Anterior
+          </button>
+
+          <button
+            type="button"
+            class="test-button test-button-primary"
+            id="nextQuestion"
+          >
+            Siguiente →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         RESULTADO
+    ========================== -->
+
+    <section
+      class="result-section"
+      id="result-section"
+      hidden
+    >
+
+      <div class="result-decoration"></div>
+
+      <div class="result-container">
+
+        <span class="result-label">
+          Tu resultado
+        </span>
+
+        <div class="result-mark">+</div>
+
+        <h2 id="resultTitle">
+          Resultado
+        </h2>
+
+        <div
+          class="result-score"
+          id="resultScore"
+        ></div>
+
+        <p
+          class="result-description"
+          id="resultDescription"
+        ></p>
+
+        <div class="result-disclaimer">
+
+          <strong>Recuerda</strong>
+
+          <p>
+            Este resultado es únicamente orientativo. No constituye
+            un diagnóstico psicológico ni sustituye una valoración
+            profesional individualizada.
+          </p>
+
+        </div>
+
+        <div class="result-actions">
+
+          <button
+            type="button"
+            class="test-button test-button-primary"
+            id="restartQuestionnaire"
+          >
+            Repetir cuestionario
+          </button>
+
+          <a
+            href="index.html#contacto"
+            class="test-button test-button-secondary"
+          >
+            Hablar conmigo
+          </a>
+
+        </div>
+
+        <button
+          type="button"
+          class="back-link-result"
+          id="backToAllQuestionnaires"
+        >
+          ← Ver otros cuestionarios
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRIVACIDAD
+    ========================== -->
+
+    <section class="privacy-section">
+
+      <div class="privacy-inner">
+
+        <span class="privacy-symbol">♡</span>
+
+        <div>
+
+          <p class="eyebrow">
+            Tu privacidad
+          </p>
+
+          <h2>
+            Tus respuestas
+            <em>son tuyas.</em>
+          </h2>
+
+          <p>
+            Las respuestas de estos cuestionarios se procesan
+            directamente en tu navegador para calcular el resultado.
+            No se envían automáticamente a Aida ni se incorporan
+            a ninguna historia clínica.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="questionnaires-footer">
+
+    <div class="footer-brand">
+      Aida Palacios
+      <small>Psicóloga General Sanitaria</small>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#sobre-mi">Sobre mí</a>
+      <a href="index.html#contacto">Contacto</a>
+    </div>
+
+    <div class="footer-copy">
+      © <span id="year"></span> Aida Palacios
+    </div>
+
+  </footer>
+
+
+  <script src="cuestionarios.js"></script>
+
+</body>
+</html>
